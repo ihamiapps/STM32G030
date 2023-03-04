@@ -1,43 +1,39 @@
-﻿# [STM32G030](https://www.soc.xin/STM32G030)
+手機清理管家隱私條款
+二月 26, 2023
+ 手機清理管家隱私條款
 
-[![Build Status](https://github.com/SoCXin/STM32G030/workflows/docs/badge.svg)](https://github.com/SoCXin/docs/tree/STM32G030)
+發表日期：2023年2月27日
 
-* [ST](https://www.st.com/zh/): [Cortex-M0+](https://github.com/SoCXin/Cortex)
-* [L2R2](https://github.com/SoCXin/Level): 64 MHz , [￥4.14(LQFP-48)](https://item.szlcsc.com/549607.html)
+手機清理管家在使用之前，用戶應仔細閱讀隱私條款，您繼續使用代表您已閱讀並同意本隱私條款的各項內容。本條款詳細說明了獲取了用戶哪些信息，獲取的信息用於什麼功能等，以便用戶理解其數據上傳下載過程的安全性和可靠性。
 
-## [简介](https://github.com/SoCXin/STM32G030/wiki)
+1. 前言
 
-[STM32G030](https://www.st.com/zh/microcontrollers-microprocessors/stm32g0-series.html)是目前ST最具性价比的低成本MCU产品，拥有出色的性能和完善的开发资源，在该级别产品中拥有非常出色的表现。
+手機清理管家收集的用戶權限等信息均為保證App的正常功能所必需，絕不會用於商業用途，請放心使用。
 
-### 关键参数
+2. 應用收集的信息
 
-* 64 MHz Cortex-M0+ (59 DMIPS, 142 CoreMark)
-* 8KB SRAM + 64KB Flash
-* 1x 12bit 16ch SAR ADC (2.5 MSPS)
-* 5ch x DMA
-* 1KB OTP
+2.1 個人信息
 
-## [资源收录](https://github.com/SoCXin)
+我們不收集您的地址、郵箱、通話記錄、通訊錄、短信、日程、賬號等個人信息；也未收集包括您使用應用、服務或網站時用來識別您或別人的相關信息。所以不存在您的這些個人信息被披露的情況。為了改善用戶體驗和優化產品性能，我們會收集某些日誌、設備、權限及對應功能信息。此類信息以下的2.2-2.4會進行詳細解釋說明。
 
-* [参考资源](src/)
-* [参考文档](docs/)
-* [参考工程](project/)
+2.2 網絡日誌信息
 
-可以使用[platform-stm32](https://github.com/OS-Q/platform-stm32)进行开发，支持Arduino等多种开发框架。
+您使用我們的產品和服務時，我們可能通過WEB日誌或某些程序軟件自動收集某些信息並存儲在我們的服務器日誌中。此類信息可能包括：對產品和服務的詳細使用情況，如您應用程序的打開時間、使用時長、訪問的頁面地址等；設備事件信息，例如崩潰、系統活動等信息；IP地址；您所在的時區等。
 
-## [选型建议](https://github.com/SoCXin/STM32G030)
+2.3 您的設備信息
 
-[STM32G030](https://item.szlcsc.com/549607.html)支持广泛的封装和内存组合，同时继承STM32强大的生态，特别适合成本敏感型应用。
+為了能夠正常向您提供垃圾清理、手機加速、CPU降溫、超強省電、應用管理、通知欄清理等功能，我們會收集您的相關設備信息，這些信息包括： （1）設備屬性：手機型號，安卓系統版本，網絡類型，屏幕分辨率，屏幕尺寸，電池電量，可用存儲空間，應用和文件名稱及類型，當前應用版本號等信息； （2）設備序列號或其他設備標識符：如國際移動設備身份碼IMEI、網絡設備硬件地址、廣告標識符IDFA等設備序列號、唯一身份標識符等； （3）設備信號：您使用設備的網絡狀態、藍牙狀態、WIFI接入點信息等。
 
-[TSSOP-20(￥2.67)](https://item.szlcsc.com/769428.html)具有很高的性价比。但是相对而言这个封装定位的国产MCU还有很多有力的竞争者，例如[PY32F002](https://github.com/SoCXin/PY32F002)。
+2.4 權限信息及其對應功能點
 
-[STM32G031](https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32g0-series/stm32g0x1.html) 相较 [STM32G030](https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32g0-series/stm32g0x0-value-line.html) 模拟升级功能并增加安全功能，最主要的包括新增 USB-PD/CAN-FD/AES256，产品的型号规格更加丰富。
+手機清理管家包含的權限及其對應功能點：獲取網絡狀態權限用於網絡加速；獲取通知權限用於屏蔽消息通知；獲取Wi-Fi狀態權限用於Wi-Fi狀態更改；獲取電量權限用於省電功能；獲取藍牙權限用於更改藍牙狀態；獲取廣播權限用於消息通知；獲取緩存權限用於清理緩存垃圾；獲取安裝包大小權限用於清理垃圾；獲取任務列表權限用於清理無用進程；獲取安裝的應用權限用於應用管理和卸載殘留；獲取更改配置(CHANGE_CONFIGURATION)權限用於更改字體；獲取喚醒解鎖（WAKE_LOCK）權限用於屏保功能；獲取手機狀態權限（READ_PHONE_STATE）和位置權限（ACCESS_COARSE_LOCATION，ACCESS_FINE_LOCATION）用於顯示第三方贊助商提供的內容；獲取懸浮窗權限用於快捷懸浮球的顯示和屏保的顯示；獲取存儲權限用於清理系統文件垃圾等功能;獲取小米推送權限（MIPUSH_RECEIVE）用於給小米手機
 
+用戶推送消息；獲取華為推送權限（PROCESS_PUSH_MSG）用於給華為手機用戶推送消息；獲取帳號同步權限（AUTHENTICATE_ACCOUNTS）用於不同手機間的賬號同步；獲取請求安裝包權限用於用戶下載安裝包後請求安裝應用。若您拒絕我們獲取功能需要的敏感權限，我們可能無法繼續為您提供相對應的服務，也不再處理您相應的信息。
 
-### 开源方案
+3. 保護用戶信息
 
-* [Arduino_Core_STM32](https://github.com/stm32duino/Arduino_Core_STM32)
-* [STM32CubeG0](https://github.com/STMicroelectronics/STM32CubeG0)
-* [rust API](https://github.com/stm32-rs/stm32g0xx-hal)
+手機清理管家製定了嚴格的用戶上傳信息處理規則和安全保護措施來確保不超越目的和範圍收集用戶信息，確保用戶上傳信息的安全，確保用戶上傳信息不被濫用。
 
-## [www.SoC.xin](http://www.SoC.Xin)
+4. 聯繫我們
+
+如果您對本隱私政策有任何疑問、意見或投訴，可郵件至我們開發者郵箱：ihamiapps@gmail.com
